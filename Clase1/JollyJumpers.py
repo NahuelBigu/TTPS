@@ -1,13 +1,16 @@
 import sys
-# WRONG ANSWER
+# ACCEPTED
+
+
 def JollyJumpers(numbers):
     differences= set()
     for i in range(1,int(numbers[0])):
         difference= abs(int(numbers[i]) - int(numbers[i+1]))
+        #if(difference<int(numbers[0])):
         differences.add(difference)
-    #for i in range(len(differences)):
-        #if(differences[i] not in differences):
-        #    return "Not Jolly"   
+    for x in range(1,int(numbers[0])):
+        if(x not in differences):
+            return "Not jolly"   
     return "Jolly"
 
 
