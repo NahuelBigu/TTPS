@@ -11,3 +11,10 @@ stdout.write('The sum of the two numbers is: ' + str(a + b) + '\n')
 
 # Podemos usar f (python 3.6 <) para formatear el texto de forma más comoda(pero esto tal vez impacte en el TE)
 # stdout.write(f'The sum of the two numbers is: {a+b} \n')
+
+
+# Lectura sin limites 
+
+for lines in stdin:
+    numbers= lines.strip().split()
+
