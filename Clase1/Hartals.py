@@ -5,7 +5,7 @@ def workingDaysLose(hartalsParametersOriginal,days):
     dayslose=0
     daysToFrSa=6
     hartalsParameters=hartalsParametersOriginal[:]
-    for day in range(days):
+    for _ in range(days):
         hartal=False
         daysToFrSa-=1
         for hartalIndex in range(len(hartalsParameters)):
