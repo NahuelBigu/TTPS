@@ -31,3 +31,25 @@ for case in range(cases):
         hartalParameters.append(int(stdin.readline().strip()))
     stdout.write(workingDaysLose(hartalParameters,days)+"\n")
     
+
+"""
+ #MAS EFICIENTE
+from sys import stdin, stdout
+import math
+
+cases=int(stdin.readline())
+cases_results=[]
+for I in range(cases):
+    days=[0] * int(stdin.readline())
+    for J in range(int(stdin.readline())):
+        hartal_parameter=int(stdin.readline())
+        for Z in range(math.floor(len(days)/hartal_parameter)):
+            days[hartal_parameter*(Z+1)-1]=1      
+    for K in range(5,len(days),7):
+        days[K]=0
+    for K in range(6,len(days),7):
+        days[K]=0
+    cases_results.append(days.count(1))
+for N in cases_results:
+    print(str(N))
+"""
