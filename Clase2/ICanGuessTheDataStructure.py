@@ -1,5 +1,5 @@
 from sys import stdin, stdout
-
+# Accepted
 # I Can Guess the Data Structure! UVA - 11995 
 for line in stdin:
     cases=int(line.strip())
