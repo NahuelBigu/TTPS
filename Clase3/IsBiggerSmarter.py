@@ -21,12 +21,7 @@ seq=[]
 
 for index,line in enumerate(stdin):
     elephant=line.strip().split()
-    elephant2=[]
-    for i in range(2):
-        elephant2.append(int(elephant[i]))
-    elephant2.append(index+1)
-
-    elephant=tuple(elephant2)
+    elephant=(int(elephant[0]),int(elephant[1]),index+1)
     seq.append(elephant)
 
 seq2 = sorted(seq, key=lambda x: (x[0], x[1],-x[2]))
