@@ -19,6 +19,9 @@ def ED(s, t, cost_delete, cost_insert,  cost_replace):
     return memo[n-1][m-1]
 
 def imprimirCamino2():
+    for i in range(1,n): prev[i][0]= (i-1,0)
+    for j in range(1,m): prev[0][j]= (0,j-1)
+    for k in prev: print(k)
     operaciones=[]
     i=n-1
     j=m-1

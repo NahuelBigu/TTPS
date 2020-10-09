@@ -36,8 +36,6 @@ for i in range(len(seq2)):
 print(maxi)
 #PARA OBTENER LA LIS GRACIAS A PREV
 
-
-
 aux=maxiPos
 auxList=[]
 while(aux!=-1):

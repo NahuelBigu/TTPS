@@ -25,5 +25,5 @@ while(tamañoA+tamañoB!=0):
     tiles=LCS(towerA,towerB)
     stdout.write("Twin Towers #"+str(cases)+"\n")
     cases+=1
-    stdout.write("Number of Tiles : "+str(tiles)+"\n")
+    stdout.write("Number of Tiles : "+str(tiles)+"\n\n")
     tamañoA,tamañoB=[int(x) for x in stdin.readline().strip().split(' ')]
