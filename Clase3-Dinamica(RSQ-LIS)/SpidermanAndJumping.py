@@ -15,7 +15,6 @@ def spiderman(I):
         return 0
     energyMin=999999999999
     aux=1 
-    
     while(I+aux <= (n-1)):
         energyMin=min(energyMin, (abs(building[I]-building[I+aux])  + spiderman(I+aux)) )
         aux<<=1 ## mueve un bit a la izq
