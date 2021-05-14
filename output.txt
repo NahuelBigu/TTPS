@@ -1,64 +1,30 @@
-Case 1: 0
-Case 2: 1
-Case 3: 1097712000
-Case 4: 9
-Case 5: 0
-Case 6: 0
-Case 7: 0
-Case 8: 1
-Case 9: 1
-Case 10: 1
-Case 11: 363606122880
-Case 12: 0
-Case 13: 0
-Case 14: 6531840
-Case 15: 0
-Case 16: 0
-Case 17: 1
-Case 18: 0
-Case 19: 0
-Case 20: 1
-Case 21: 153679680
-Case 22: 2592
-Case 23: 16
-Case 24: 24048024
-Case 25: 0
-Case 26: 0
-Case 27: 1669619952000
-Case 28: 1
-Case 29: 36
-Case 30: 1
-Case 31: 1
-Case 32: 59364264960
-Case 33: 81648000
-Case 34: 72
-Case 35: 49
-Case 36: 1
-Case 37: 9
-Case 38: 0
-Case 39: 1
-Case 40: 1
-Case 41: 25613280
-Case 42: 1
-Case 43: 0
-Case 44: 1058400
-Case 45: 5400
-Case 46: 0
-Case 47: 153679680
-Case 48: 81648000
-Case 49: 1
-Case 50: 18816
-Case 51: 16
-Case 52: 25
-Case 53: 163350
-Case 54: 0
-Case 55: 12168
-Case 56: 1
-Case 57: 14841066240
-Case 58: 0
-Case 59: 0
-Case 60: 121
-Case 61: 0
-Case 62: 0
-Case 63: 0
-Case 64: 253849500450000
+Network 1
+The bandwidth is 14394.
+
+Network 2
+The bandwidth is 43453.
+
+Network 3
+The bandwidth is 43340.
+
+Network 4
+The bandwidth is 23501.
+
+Network 5
+The bandwidth is 33728.
+
+Network 6
+The bandwidth is 10204.
+
+Network 7
+The bandwidth is 72866.
+
+Network 8
+The bandwidth is 2735.
+
+Network 9
+The bandwidth is 13049.
+
+Network 10
+The bandwidth is 20912.
+
